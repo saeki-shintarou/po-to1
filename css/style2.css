@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+body, {
+    color: #09170a;   font-family: fantasy;
+full-page {
+  width: 100vw;
+  height: 100vh;
+
+ background: rgba(0,0,0,.3);
+ background-color: rgb(15, 14, 14);
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color:yellow;
+    font-family: fantasy;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #24738e;
+}
+
+table, tr, th, td {
+    border: 1px solid #09040c;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td {
+    width: 66%;
+    padding: 10px 2%;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
